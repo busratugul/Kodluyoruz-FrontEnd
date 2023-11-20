@@ -1,7 +1,9 @@
-# Selection Sort Projesi
----
-### Insertion Sort
 
+# Proje 1
+---
+# Selection Sort Projesi
+
+#### Insertion Sort
 
 * Yukarıda verilen dizini sort türüne göre aşamalarını yazınız.
 
@@ -28,3 +30,34 @@ Aradığımız sayı dizinin ortasında. Average case.
 4. [2,3,4,5,7,9,8,15,6]
    
 ----
+# PROJE 2
+---
+
+### Merge Sort Projesi
+---
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösterimini yazınız.
+
+[16,21,11,8,12,22]
+
+- [16,21,11] [8,12,22]
+- [16,21] [11] - [8,12] [22]
+- [16] [21] [11] - [8] [12] [22]
+- [16,21] [8,11] [12,22]
+- [8,11,12,16,21,22]
+
+---
+# PROJE 3
+---
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+- Step 1: 1<5 için Root' un solunda 1
+- Step 2: 7>5 için Root' un sağında 7
+- Step 3: 0<1 ve 0<5 için Root' un solunda 0
+- Step 4: 3>1 ve 3<5 için Root' un sağında 3
+- Step 5: 2<3, 2>1 ve 2<5 için Root' un solunda 2
+- Step 6: 4>3, 4>1 ve 4<5 için Root' un sağında 4
+- Step 7: 6<7 ve 6>5 için Root' un solunda 6
+- Step 8: 9>7 ve 9>5 için Root' un sağında 9
+- Step 9: 8<9 ve 8>5 için Root' un solunda 8
