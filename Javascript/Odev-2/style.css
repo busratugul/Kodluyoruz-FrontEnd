@@ -1,0 +1,56 @@
+* {
+  list-style: none;
+}
+
+body {
+  background: #ffd099;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #ff9209;
+}
+
+.navbar h2 {
+  color: #ff9209;
+}
+
+input {
+  letter-spacing: 0.05rem;
+}
+
+input:active,
+input:focus {
+  outline: 1px solid black;
+}
+
+.task {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf7e4;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.task:hover {
+  background-color: #ff9209;
+  transition: all 0.3s ease-in;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  background: #2b3499 !important;
+  color: rgba(211, 211, 211, 0.552);
+}
